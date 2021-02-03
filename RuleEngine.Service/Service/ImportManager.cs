@@ -56,7 +56,7 @@ namespace RuleEngine.Service.Service
             PrintRuleDetails(rule);
         }
 
-        private bool IsTurbineAggregationSatisfied(Rule rule)
+        public bool IsTurbineAggregationSatisfied(Rule rule)
         {
             bool turbineAggregationSatisfied = false;
 
@@ -78,7 +78,7 @@ namespace RuleEngine.Service.Service
             return turbineAggregationSatisfied;
         }
 
-        private bool AreForbidenEventsSatisfied(Rule rule)
+        public bool AreForbidenEventsSatisfied(Rule rule)
         {
             bool existsInForbiden = false;
 
@@ -96,7 +96,7 @@ namespace RuleEngine.Service.Service
             return !existsInForbiden;
         }
 
-        private bool AreRequiredEventsSatisfied(Rule rule)
+        public bool AreRequiredEventsSatisfied(Rule rule)
         {
             foreach (var liveEvent in _givenData.LiveEvents)
             {

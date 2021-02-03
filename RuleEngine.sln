@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleEngine.Service", "RuleEngine.Service\RuleEngine.Service.csproj", "{2333F83A-D3CE-441F-9565-EDB7F3C7D55D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RuleEngine.Service", "RuleEngine.Service\RuleEngine.Service.csproj", "{2333F83A-D3CE-441F-9565-EDB7F3C7D55D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RuleEngine.Tests", "RuleEngine.Tests\RuleEngine.Tests.csproj", "{71CDE344-34E2-43D8-8D2C-68D2BC496A1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2333F83A-D3CE-441F-9565-EDB7F3C7D55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2333F83A-D3CE-441F-9565-EDB7F3C7D55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2333F83A-D3CE-441F-9565-EDB7F3C7D55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71CDE344-34E2-43D8-8D2C-68D2BC496A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71CDE344-34E2-43D8-8D2C-68D2BC496A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71CDE344-34E2-43D8-8D2C-68D2BC496A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71CDE344-34E2-43D8-8D2C-68D2BC496A1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

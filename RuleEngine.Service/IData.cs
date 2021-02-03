@@ -6,7 +6,7 @@ namespace RuleEngine.Service
 {
     public interface IData
     {
-        List<LiveEvent> LiveEvents { get; set; }
-        List<Rule> Rules { get; set; }
+        public List<LiveEvent> LiveEvents { get; set; }
+        public List<Rule> Rules { get; set; }
     }
 }
