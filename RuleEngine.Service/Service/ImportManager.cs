@@ -30,6 +30,8 @@ namespace RuleEngine.Service.Service
 
         private void SetRuleDiagnosis(Rule rule)
         {
+            rule.Diagnosis = string.Empty;
+
             // check TurbineAggregation
             if (!IsTurbineAggregationSatisfied(rule))
             {
